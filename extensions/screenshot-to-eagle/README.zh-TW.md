@@ -2,6 +2,10 @@
 
 <div align="center">
 
+<a href="https://github.com/leonwong282/programming-learning">
+  <img src="assets/extension-icon.png" alt="Logo" width="80" height="80">
+</a>
+
 # 📸 Screenshot to Eagle
 
 > 強大的 Raycast 擴充功能，無縫整合 macOS 截圖和 Eagle 資產管理
@@ -26,6 +30,8 @@
   - 延時截圖（預設 5 秒延遲）
   - 預設模式（可自訂）
 
+![Shot to Eagle Command](./assets/Shot%20to%20Eagle%20Command.png)
+
 - 🦅 **Eagle 整合**
   - 自動上傳至 Eagle 資料庫
   - 支援資料夾選擇
@@ -33,12 +39,16 @@
   - 最近使用資料夾快速存取
   - 記憶資料夾選擇
 
+![Select Folder](./assets/Select%20folder.png)
+
 - ⚙️ **可自訂設定**
   - 選擇預設截圖模式
   - 包含/排除滑鼠游標
   - 啟用/停用相機音效
   - 調整延時時長
   - 可選 API token 驗證
+
+![Screenshot to Eagle](./assets/Screenshot%20to%20Eagle%20Setting.jpg)
 
 - 🚀 **流暢工作流程**
   - 快速順暢的操作
@@ -51,8 +61,11 @@
 
 - macOS 作業系統
 - 已安裝並執行 [Eagle](https://eagle.cool/) 應用程式
-- 已啟用 Eagle Web API（設定 → 實驗室 → API）
+- 已啟用 Eagle Web API（設定 → 開發者 → API）
 - 已安裝 Raycast
+
+![Get Eagle Web API](./assets/Get%20Eagle%20Web%20APL.jpg)
+
 
 ## 🛠️ 技術堆疊
 
@@ -116,7 +129,9 @@
 
 **基礎配置**（可選）：
 - Eagle API URL: `http://localhost:41595`（預設）
-- Eagle API Token: 在 Eagle → 設定 → 實驗室 → API 中查找
+- Eagle API Token: 在 Eagle → 設定 → 開發者 → API 中查找
+
+![Get Eagle Web API](./assets/Get%20Eagle%20Web%20APL.jpg)
 
 **可選配置**：
 - 預設截圖模式：選擇您偏好的截圖方式

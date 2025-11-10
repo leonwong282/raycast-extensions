@@ -2,6 +2,10 @@
 
 <div align="center">
 
+<a href="https://github.com/leonwong282/programming-learning">
+  <img src="assets/extension-icon.png" alt="Logo" width="80" height="80">
+</a>
+
 # 📸 Screenshot to Eagle
 
 > A powerful Raycast extension that seamlessly integrates macOS screenshot functionality with Eagle asset management
@@ -26,12 +30,16 @@
   - Timed Capture (default 5-second delay)
   - Default Mode (customizable)
 
-- � **Eagle Integration**
+![Shot to Eagle Command](./assets/Shot%20to%20Eagle%20Command.png)
+
+- 🦅 **Eagle Integration**
   - Auto-upload to Eagle library
   - Folder selection support
   - Direct save to specific folders
   - Recent folders quick access
   - Remember folder selection
+
+![Select Folder](./assets/Select%20folder.png)
 
 - ⚙️ **Customizable Settings**
   - Choose default screenshot mode
@@ -40,6 +48,8 @@
   - Adjust timed delay duration
   - Optional API token authentication
 
+![Screenshot to Eagle](./assets/Screenshot%20to%20Eagle%20Setting.jpg)
+
 - 🚀 **Seamless Workflow**
   - Fast and smooth operation
   - No-view commands (background execution)
@@ -47,12 +57,14 @@
   - Automatic file cleanup
   - ESC to cancel support
 
-## � Requirements
+## 📋 Requirements
 
 - macOS operating system
 - [Eagle](https://eagle.cool/) app installed and running
-- Eagle Web API enabled (Settings → Lab → API)
+- Eagle Web API enabled (Settings → Developer → API)
 - Raycast installed
+
+![Get Eagle Web API](./assets/Get%20Eagle%20Web%20APL.jpg)
 
 ## 🛠️ Tech Stack
 
@@ -66,7 +78,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## � Installation
+## 📦 Installation
 
 ### From Raycast Store (Recommended)
 
@@ -109,6 +121,8 @@
 4. Copy your **API Token** (if required)
 5. Note the **API URL** (default: `http://localhost:41595`)
 
+![Get Eagle Web API](./assets/Get%20Eagle%20Web%20APL.jpg)
+
 ### Step 2: Configure Extension
 
 1. Open Raycast
@@ -118,7 +132,7 @@
 
 **Basic Configuration** (optional):
 - Eagle API URL: `http://localhost:41595` (default)
-- Eagle API Token: Find in Eagle → Settings → Lab → API
+- Eagle API Token: Find in Eagle → Settings → Developer → API
 
 **Optional Configuration**:
 - Default Screenshot Mode: Choose your preferred method
@@ -312,8 +326,11 @@ Screenshots/
 **A**: 
 1. Open Eagle
 2. Eagle → Settings (`⌘ + ,`)
-3. Lab → Web API
+3. Developer → Web API
 4. Copy Token (format: `xxxc3d-axx9-4xx0-bxdb-7xxx918ef5cc7`)
+
+![Get Eagle Web API](./assets/Get%20Eagle%20Web%20APL.jpg)
+
 
 ### Q: Can I customize screenshot filename?
 **A**: Current version uses fixed format: `Screenshot_YYYY-MM-DD_HH-mm-ss`
