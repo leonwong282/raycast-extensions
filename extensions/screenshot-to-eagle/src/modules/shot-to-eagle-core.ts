@@ -100,18 +100,10 @@ export async function shotToEagle(mode?: ScreenshotMode) {
     });
 
     // 6. Clean up temporary file
-    // 6. Display result and clean up
-    if (uploadResult.success) {
-      await deleteFile(screenshotResult.filePath);
-      await showHUD("✓ Saved to Eagle");
-    } else {
-      await deleteFile(screenshotResult.filePath);
-      await showToast({
-        style: Toast.Style.Failure,
-        title: "Upload Failed",
-        message: uploadResult.error || "Unknown error",
-      });
-    }
+    await deleteFile(screenshotResult.filePath); // This is necessary. 
+    // The above has been successfully saved to Eagle.
+    //The following only shows the saving information.
+    //Even if it fails, you should clear the buffer and take a screenshot again.
 
     // 7. Display result
     if (uploadResult.success) {
